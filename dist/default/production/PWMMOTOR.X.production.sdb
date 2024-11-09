@@ -1,0 +1,53 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"18 D:\PWMMOTOR.X\MOTOR.c
+[v _DCmotor DCmotor `(v  1 e 1 0 ]
+"59
+[v _initPIC initPIC `(v  1 e 1 0 ]
+"67
+[v _main main `(v  1 e 1 0 ]
+"278 C:/Users/aswin/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"340
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"737
+[v _T2CON T2CON `VEuc  1 e 1 @18 ]
+"892
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @21 ]
+"906
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @23 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1816
+[v _PR2 PR2 `VEuc  1 e 1 @146 ]
+"16 D:\PWMMOTOR.X\MOTOR.c
+[v _button button `uc  1 e 1 0 ]
+"67
+[v _main main `(v  1 e 1 0 ]
+{
+"86
+} 0
+"59
+[v _initPIC initPIC `(v  1 e 1 0 ]
+{
+"65
+} 0
+"18
+[v _DCmotor DCmotor `(v  1 e 1 0 ]
+{
+[v DCmotor@speed speed `i  1 p 2 0 ]
+"57
+} 0
